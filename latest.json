@@ -1,0 +1,8 @@
+{
+  "versionCode": 1001,
+  "versionName": "0.1.1",
+  "apkUrl": "https://raw.githubusercontent.com/liu0fanyi/clipboard-sync-releases/main/Clip-latest-arm64.apk",
+  "sha256": "04784d9a730ef86a8d4a6b3ba536ff677029e83793d71f0bf279a8cab5e87a82",
+  "size": 13476105,
+  "notes": "Signed Clip Android 0.1.1 release."
+}
