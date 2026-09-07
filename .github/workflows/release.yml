@@ -1,0 +1,28 @@
+name: Publish Android release
+
+on:
+  push:
+    tags: ['android-v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: '${{ github.token }}'
+        run: |
+          version="${GITHUB_REF_NAME#android-v}"
+          cp Clip-latest-arm64.apk "Clip-${version}-arm64.apk"
+          cp Clip-latest-arm64.apk.sha256 "Clip-${version}-arm64.apk.sha256"
+          sed -i "s/Clip-latest-arm64.apk/Clip-${version}-arm64.apk/" "Clip-${version}-arm64.apk.sha256"
+          gh release create "$GITHUB_REF_NAME" \
+            "Clip-${version}-arm64.apk" \
+            "Clip-${version}-arm64.apk.sha256" \
+            latest.json \
+            --title "Clip Android $version" \
+            --notes "Signed Clip Android $version release."
