@@ -1,7 +1,7 @@
 {
   "versionCode": 1002,
   "versionName": "0.1.2",
-  "apkUrl": "https://raw.githubusercontent.com/liu0fanyi/clipboard-sync-releases/main/Clip-latest-arm64.apk",
+  "apkUrl": "https://wttliou.top/releases/clip/Clip-latest-arm64.apk",
   "sha256": "430fa1aa0551f64f34b13c7d281fd70e4f8f249322adf084275ecf831371ee9a",
   "size": 13481025,
   "notes": "Signed Clip Android 0.1.2 release."
