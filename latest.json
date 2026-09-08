@@ -1,8 +1,8 @@
 {
-  "versionCode": 1017,
-  "versionName": "0.1.17",
-  "apkUrl": "https://wttliou.top/releases/clip/Clip-0.1.17-arm64.apk",
-  "sha256": "092a1275abaa082eb6e8188aafda4b97ae5a031d3ad496d3b1331408122a4cdb",
-  "size": 14177089,
-  "notes": "Clip 0.1.17 正式版"
+  "versionCode": 1018,
+  "versionName": "0.1.18",
+  "apkUrl": "https://wttliou.top/releases/clip/Clip-0.1.18-arm64.apk",
+  "sha256": "1ce2d6d7b01a6c05383465fc3104bc14ed4eabcb80d95ab252829f0039f80d91",
+  "size": 14217033,
+  "notes": "Clip 0.1.18 正式版"
 }
