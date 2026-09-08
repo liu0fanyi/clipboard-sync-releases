@@ -1,8 +1,8 @@
 {
-  "versionCode": 1008,
-  "versionName": "0.1.8",
-  "apkUrl": "https://wttliou.top/releases/clip/Clip-0.1.8-arm64.apk",
-  "sha256": "ee6a01cd861bbb2fd2445457200a54c60ed6a85424ffc3681705e8f12b6849eb",
-  "size": 13482221,
-  "notes": "Signed Clip Android 0.1.8 release."
+  "versionCode": 1010,
+  "versionName": "0.1.10",
+  "apkUrl": "https://wttliou.top/releases/clip/Clip-0.1.10-arm64.apk",
+  "sha256": "5d2b4fb337fb26c2f80f1fd444e31428a250a1404357c8aa86f10acb924a4fa9",
+  "size": 13524453,
+  "notes": "Signed Clip Android 0.1.10 release."
 }
